@@ -1,0 +1,5 @@
+1) Upload the edit_area folder to the textpattern directory on your server.
+2) Install the plugin in atb_textarea.txt like any other Textpattern plugin
+   and activate it.
+3) Go to the 'Pages', 'Forms', or 'Style' page in your Textpattern admin and
+   admire your new code editor.

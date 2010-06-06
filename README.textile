@@ -1,0 +1,7 @@
+This is @atb_editarea@. It simply takes Christophe Dolivet's "EditArea":http://www.cdolivet.com/index.php?page=editArea, a free javascript editor for source code, and uses it to enhance the textareas inside your Textpattern admin area's Presentation tab.
+
+h3. Possible future enhancements
+
+# Some, like, documentation.
+# An EditArea syntax for Textpattern Tags, so we can properly highlight code.
+# support for certain plugins, like @stm_javascript@.
