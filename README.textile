@@ -4,4 +4,3 @@ h3. Possible future enhancements
 
 # Some, like, documentation.
 # An EditArea syntax for Textpattern Tags, so we can properly highlight code.
-# support for certain plugins, like @stm_javascript@.

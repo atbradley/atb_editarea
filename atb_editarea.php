@@ -68,13 +68,15 @@ if (@txpinterface == 'admin')
 	register_callback('atb_editarea_page', 'page');
 	register_callback('atb_editarea_form', 'form');
 	register_callback('atb_editarea_style', 'css');
-	//register_callback('atb_editarea_js', 'js');
+	register_callback('atb_editarea_plugin', 'admin_side', 'body_end');
 }
 
 function atb_editarea_page() { atb_editarea('html', 'html'); }
 function atb_editarea_form() { atb_editarea('form', 'html'); }
 function atb_editarea_style() { atb_editarea('css', 'css'); }
-function atb_editarea_js() { atb_editarea('js', 'js'); }
+function atb_editarea_plugin() {
+	if ( 'js' === gps('event') ) { atb_editarea('js', 'js'); }
+}
 
 function atb_editarea( $did, $syntax ) {
 	
